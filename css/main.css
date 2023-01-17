@@ -74,6 +74,10 @@ li {
   background-color: #f7f7f7;
 }
 
+.blog-back {
+  font-size: 16 px;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -105,3 +109,26 @@ article p:first-child {
 }
 
 /* Styling Links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777 ; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
